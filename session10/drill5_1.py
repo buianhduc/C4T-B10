@@ -1,0 +1,16 @@
+staff=[{
+    'name':'Huy',
+    'Role':'Waiter',
+    'Hours':12,
+    'SalperH':0.8,
+},{
+    'name':'Tung',
+    'Role':'Cook',
+    'Hours':24,
+    'SalperH':1.5,
+},{
+    'name':'M.Duc',
+    'Role':'Manager',
+    'Hours':24,
+    'SalperH':2,
+}]

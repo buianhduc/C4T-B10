@@ -1,0 +1,28 @@
+staff=[{
+    'name':'Huy',
+    'Role':'Waiter',
+    'Hours':12,
+    'SalperH':0.8,
+},{
+    'name':'Tung',
+    'Role':'Cook',
+    'Hours':24,
+    'SalperH':1.5,
+},{
+    'name':'M.Duc',
+    'Role':'Manager',
+    'Hours':24,
+    'SalperH':2,
+}]
+staff.append({
+    'name':'Don',
+    'Role':'Waiter',
+    'Hours':12,
+    'SalperH':0.9,
+})
+staff.append({
+    'name':'H.Duc',
+    'Role':'Waiter',
+    'Hours':14,
+    'SalperH':0.7,
+})
