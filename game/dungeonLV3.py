@@ -15,11 +15,12 @@ Key = condinate(0,0)
 Player = condinate(0,0)
 Wall = condinate(0,0)
 Key2 = condinate(0,0)
+Monster = condinate(0,0)
 # => define cordinate of elements
 def same(condinates):
     result = True
-    for i in range(0,3):
-        for j in range(0,3):
+    for i in range(0,4):
+        for j in range(0,4):
             if condinates[i][0] == condinates[i+1][0] and condinates[i][1] == condinates[i+1][1]:
                 result = False
     return result
@@ -34,8 +35,10 @@ def genarateCordinate(): #generate elements' condinate
     Wall.x = random.randint(0,3)
     Wall.y = random.randint(0,3)
     Key2.x = random.randint(0,3)
-    Key2.y = random.randint(0,3)    
-    condinates = [[Door.x, Door.y], [Key.x,Key.y], [Player.x, Player.y], [Wall.x, Wall.y], [Key2.x,Key2.y]]
+    Key2.y = random.randint(0,3)
+    Monster.x = random.randint(0,3)
+    Monster.y = random.randint(0,3)
+    condinates = [[Door.x, Door.y], [Key.x,Key.y], [Player.x, Player.y], [Wall.x, Wall.y], [Key2.x,Key2.y], [monster.x, monster.y]]
     if(same(condinates) == False):
         genarateCordinate()
 # => Generate condinate
